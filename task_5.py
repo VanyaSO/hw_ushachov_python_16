@@ -3,7 +3,7 @@ arr = []
 
 def generate_list():
     for i in range(100):
-        arr.append(random.randint(1,5))
+        arr.append(random.randint(1,100))
         
         
 def find_min_ten(list, current_index=0, min_index=0, min_sum=float("inf")):
